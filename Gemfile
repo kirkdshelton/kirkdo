@@ -46,4 +46,6 @@ gem 'google-webfonts-rails'
 
 gem 'simple_form'
 
+gem 'devise'
+
 
