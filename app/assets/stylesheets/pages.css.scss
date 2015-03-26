@@ -4,10 +4,12 @@
 
 h1{
 font-family: 'Pacifico', cursive;
+
 }
 
 h3{
 font-family: 'Pacifico', cursive;
+
 }
 
 
@@ -18,5 +20,11 @@ font-family: 'Pacifico', cursive;
 
 .panel-footer{
 	
-	height: 3px
+	
+	border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    padding: 2px 15px;
+
 }
+
+
