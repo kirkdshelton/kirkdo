@@ -6,33 +6,40 @@
   =require twitter-bootstrap-static/fontawesome
   */
 
+.text-foo {
+  color:#ffffff;
+  text-shadow: black 0.01em 0.1em 0.1em;
+}
+
 .jumbotron { 
- background-color: #7a7a7a; 
-color: #ffffff;
-} 
+   background-color: #7a7a7a; 
+   background: transparent;
+   color: #393e71;
+ } 
+
+ .navbar-brand {
+   font-family: 'Pacifico', cursive;
+ }
 
 
 
-  .navbar-brand {
-  	font-family: 'Pacifico', cursive;
-  }
+ a{
+   color: #127405;
+ }
 
+ a:hover{
+   color: #6e6b6b;
+ }
 
+ body {
+  background-image: url("kirkdo_background.png");
+  background-size: 100% auto;
+  padding-bottom: 50%;
+  background-color: #bbccb9;
+}
 
-  a{
-  	color: #127405;
-  }
-
-  a:hover{
-  	color: #6e6b6b;
-  }
-
-  body {
-  	background-color: #bbccb9;
-  }
-
-  .panel-heading {
-color: #6e6b6b;
+.panel-heading {
+  color: #6e6b6b;
 }
 
 .btn-sample { 
